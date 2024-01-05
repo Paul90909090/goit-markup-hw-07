@@ -1,0 +1,51 @@
+.hero {
+    text-align: center;
+    padding: 200px 0px;
+    background-color: rgba(47, 48, 58, 0.40);
+
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0)),
+        url(../images/Imghero.jpg);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero__title {
+    display: inline-block;
+
+    color: #FFFFFF;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+
+
+    margin-bottom: 30px;
+}
+
+.hero__button {
+    display: block;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border: 0;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.96px;
+
+    border-radius: 4px;
+    padding: 10px 32px;
+
+    margin: 0 auto;
+    min-width: 216px;
+    height: 50px;
+
+    cursor: pointer;
+    outline: none;
+}
